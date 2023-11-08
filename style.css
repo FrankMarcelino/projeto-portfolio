@@ -1,0 +1,77 @@
+/* ESTILO GERAL */
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'roboto', sans-serif;
+}
+
+body{
+    background-color: #1f1f20;
+    height: 100vh;
+}
+
+.interface{
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+/* ESTILO DO CABEÇALHO */
+header{
+    padding: 40px 4%;
+
+}
+
+header > .interface{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+a{
+    color:#c8c7cc;
+    text-decoration: none;
+    display: inline-block;
+}
+
+a:hover{
+    color:#f4f4f7;
+    text-shadow: 0px  0px 8px #ffffffa4;
+    box-shadow: 0px 0px 8px #08801c;
+    border-radius: 30px;
+    padding: 5px 5px;
+    transform: scale(1.05);
+    transition: .2s;
+}
+
+header nav ul{
+    list-style-type: none;
+    
+}
+
+header nav ul li{
+    display: inline-block;
+    padding: 10px 40px; 
+    
+    
+}
+
+header .btn-contato button{
+    padding: 5px 20px;
+    font-size: 18px;
+    font-weight: 400;
+    background-color: #30e04d;
+    border: none;
+    border-radius: 30px;
+    color: rgb(18, 26, 19);
+    cursor: pointer;
+}
+
+header .btn-contato button:hover {
+    box-shadow: 0px 0px 8px #08801c;
+}
