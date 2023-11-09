@@ -1,5 +1,5 @@
 /* ESTILO GERAL */
-
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Faster+One&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
 
@@ -50,6 +50,10 @@ H2.titulo{
     text-align: center;
 }
 
+p{
+    font-size: 18px;
+}
+
 
 
 /* ESTILO DO CABEÇALHO */
@@ -58,8 +62,18 @@ header{
 
 }
 
-.logo{
-    height: 50px;    
+.logo > h1{
+    font-family: 'bebas neue';
+    font-size: 70px;
+    color: #08801c;
+   
+}
+.logo p{
+    color: #f4f4f7;
+    font-size: 18px;
+    font-weight: 600;
+    margin-top: -15px;
+    text-align: center;
 }
 
 .logo h3 {
@@ -158,12 +172,24 @@ section.topo-do-site .flex{
 
 /* ESTILO DAS ESPECIALIDADES */
 
+.especialidades{
+    background-color: #272727;
+    border-top: solid #c8c7cc;
+}
+
+div.interface h2{
+    margin-top: 40px;
+    padding-top: 20px;
+}
+
 section.especialiadade-box{
     padding: 40px 4%;
+    
 }
 
 section.especialidades .flex{
     gap: 44px;
+    margin-bottom: 30px;
 }
 
 .especialidades .especialidades-box{
@@ -171,6 +197,7 @@ section.especialidades .flex{
     padding: 40px;
     border: 2px solid #f4f4f7;
     margin-top: 44px;
+    margin-bottom: 50px;
     border-radius: 15px;
     transition: .2s;
 }
@@ -190,4 +217,45 @@ section.especialidades .flex{
 .especialidades .especialidades-box h3{
     font-size: 28px;
     margin: 15px 0;
+}
+
+/* ESTILO SOBRE */
+
+section.sobre{
+    margin-top:-30px;
+    padding: 40px 4%;
+    border-top: solid #08801c;
+    background-color: #333232;
+}
+
+section.sobre .flex{
+    align-items: center;
+    gap:60px;
+}
+
+.sobre .txt-sobre{
+color: #E3E3EE;
+
+}
+.sobre .txt-sobre h2{
+    margin-top: 40px;
+    text-align: left;
+    line-height: 40px;
+    margin-bottom: 30px;
+}
+.sobre .txt-sobre h2 span{
+    display: block;
+    text-align: left;
+}
+
+.sobre .txt-sobre p{
+    margin: 20px 0;
+}
+
+a i{
+    font-size: 40px;
+    color: #08801c;
+    background-color: #333232;
+    border-color: #333232;
+    margin: 5px;
 }
