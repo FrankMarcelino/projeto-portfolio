@@ -28,7 +28,7 @@ body{
     padding: 5px 20px;
     font-size: 18px;
     font-weight: 600;
-    background-color: #08801c;
+    background-color: #39d353;
     border: none;
     border-radius: 30px;
     color: rgb(18, 26, 19);
@@ -65,7 +65,7 @@ header{
 .logo > h1{
     font-family: 'bebas neue';
     font-size: 70px;
-    color: #08801c;
+    color: #39d353;
    
 }
 .logo p{
@@ -210,7 +210,7 @@ section.especialidades .flex{
 
 .especialidades .especialidades-box i{
     font-size: 60px;
-    color: #08801c;
+    color: #39d353;
     
 }
 
@@ -226,6 +226,7 @@ section.sobre{
     padding: 40px 4%;
     border-top: solid #08801c;
     background-color: #333232;
+    
 }
 
 section.sobre .flex{
@@ -237,25 +238,31 @@ section.sobre .flex{
 color: #E3E3EE;
 
 }
-.sobre .txt-sobre h2{
-    margin-top: 40px;
-    text-align: left;
-    line-height: 40px;
-    margin-bottom: 30px;
+
+.sou-titulo .titulo-h2{
+    margin:0;
+    font-size: 34px;
+    color: #f4f4f7;
+    text-align: center;
 }
-.sobre .txt-sobre h2 span{
-    display: block;
-    text-align: left;
+
+.img-sobre{
+    display: flex;
+    margin: auto;
 }
+
+
 
 .sobre .txt-sobre p{
     margin: 20px 0;
 }
 
 a i{
+
     font-size: 40px;
-    color: #08801c;
+    color: #39d353;
     background-color: #333232;
-    border-color: #333232;
-    margin: 5px;
+    border-color: none;
+    margin: 10px;
+    
 }
