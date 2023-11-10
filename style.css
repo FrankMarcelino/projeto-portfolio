@@ -175,7 +175,7 @@ section.topo-do-site .flex{
 /* ESTILO DAS ESPECIALIDADES */
 
 .especialidades{
-    background-color: #272727;
+    background-color: #333232;
     border-top: solid #c8c7cc;
 }
 
@@ -227,7 +227,7 @@ section.sobre{
     margin-top:-30px;
     padding: 40px 4%;
     border-top: solid #08801c;
-    background-color: #333232;
+    background-image: radial-gradient(#1f1f20 75%, #08801c65);
     
 }
 
@@ -236,8 +236,11 @@ section.sobre .flex{
     gap:60px;
 }
 
-.sobre .txt-sobre{
-color: #E3E3EE;
+.txt-sobre{
+    width: 500px;
+    margin: 0 auto;
+
+    color: #E3E3EE;
 
 }
 
@@ -269,7 +272,7 @@ a i{
 
     font-size: 30px;
     color: #39d353;
-    background-color: #333232;
+    background-color: #1f1f20;
     border-color: none;
     margin: 10px; 
    
@@ -284,7 +287,7 @@ section.portfolio{
     margin-top:-30px;
     padding: 40px 4%;
     border-top: solid #c8c7cc;
-    background-color: #333232;
+    background-color: #414141;
 }
 
 section.portfolio .flex{
@@ -303,4 +306,61 @@ section.portfolio .flex{
 
 .img-port:hover {
     background-position: 100% 100%;
+}
+
+/* ESTILO DO FORMULÁRIO DE CONTATO */
+
+section.formulario {
+    padding: 80px 4%;
+    border-top: solid #39d353;
+}
+
+form{
+    max-width: 500px;
+    margin: 0 auto;
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+}
+
+form input{
+    width: 100%;
+    background-color: #414141;
+    color: #f4f4f7;
+    border: none;
+    border-radius: 15px;
+    padding: 10px;
+}
+
+form textarea{
+    background-color: #414141;
+    color: #f4f4f7;
+    padding: 10PX;
+    border: none;
+    border-radius: 15px;
+    resize: none;
+}
+
+.btn-enviar input{
+    width: 120px;
+    padding: 5px 20px;
+    font-size: 18px;
+    font-weight: 600;
+    background-color: #39d353;
+    border: none;
+    border-radius: 30px;
+    color: #f4f4f7;
+    cursor: pointer;
+    transition: .5s;
+}
+
+.btn-enviar input:hover{
+    box-shadow: 0 0 8px #39d353;
+    transform: scale(1.05);
+}
+
+form .btn-enviar{
+    text-align: center;
 }
