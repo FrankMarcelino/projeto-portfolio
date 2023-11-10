@@ -10,21 +10,21 @@
     font-family: 'roboto', sans-serif;
 }
 
-body{
+body {
     background-color: #1f1f20;
     height: 100vh;
 }
 
-.interface{
+.interface {
     max-width: 1280px;
     margin: 0 auto;
 }
 
-.flex{
+.flex {
     display: flex;
 }
 
-.btn-contato button{
+.btn-contato button {
     padding: 5px 20px;
     font-size: 18px;
     font-weight: 600;
@@ -39,37 +39,38 @@ body{
     box-shadow: 0px 0px 8px #08801c;
 }
 
-span{
+span {
     font-family: 'bebas neue';
     color: #08801c;
     font-size: 50px;
 }
 
-H2.titulo{
+H2.titulo {
     color: #E3E3EE;
     font-size: 40px;
     text-align: center;
 }
 
-p{
+p {
     font-size: 18px;
 }
 
 
 
 /* ESTILO DO CABEÇALHO */
-header{
+header {
     padding: 40px 4%;
 
 }
 
-.logo > h1{
+.logo>h1 {
     font-family: 'bebas neue';
     font-size: 70px;
     color: #39d353;
-   
+
 }
-.logo p{
+
+.logo p {
     color: #f4f4f7;
     font-size: 18px;
     font-weight: 600;
@@ -81,23 +82,23 @@ header{
     text-align: center;
 }
 
-header > .interface{
+header>.interface {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    
+
 }
 
-a{
-    color:#c8c7cc;
+a {
+    color: #c8c7cc;
     text-decoration: none;
     display: inline-block;
     font-weight: 600;
 }
 
-a:hover{
-    color:#f4f4f7;
-    text-shadow: 0px  0px 8px #ffffffa4;
+a:hover {
+    color: #f4f4f7;
+    text-shadow: 0px 0px 8px #ffffffa4;
     box-shadow: 0px 0px 8px #08801c;
     border-radius: 30px;
     padding: 5px 5px;
@@ -105,16 +106,16 @@ a:hover{
     transition: .2s;
 }
 
-header nav ul{
+header nav ul {
     list-style-type: none;
-    
+
 }
 
-header nav ul li{
+header nav ul li {
     display: inline-block;
-    padding: 10px 40px; 
-    
-    
+    padding: 10px 40px;
+
+
 }
 
 
@@ -123,17 +124,17 @@ header nav ul li{
 
 /* ESTILO DO TOPO DO SITE */
 
-section.topo-do-site{
+section.topo-do-site {
     padding: 40px 4%;
 }
 
-section.topo-do-site .flex{
+section.topo-do-site .flex {
     align-items: center;
     justify-content: center;
     gap: 90px;
 }
 
-.topo-do-site .txt-topo-site h1{
+.topo-do-site .txt-topo-site h1 {
     margin-top: 40px;
     color: #E3E3EE;
     font-size: 44px;
@@ -142,7 +143,7 @@ section.topo-do-site .flex{
 
 
 
-.topo-do-site .txt-topo-site p{
+.topo-do-site .txt-topo-site p {
     color: #c8c7cc;
     margin: 40px 0;
 }
@@ -150,11 +151,11 @@ section.topo-do-site .flex{
 .topo-do-site .img-topo-site {
     position: relative;
     animation: flutuar 2s ease-in-out infinite alternate;
-    box-shadow: 0px 0px 30px #08801c ;
+    box-shadow: 0px 0px 30px #08801c;
     border-radius: 15px;
 }
 
-.img-topo-site p{
+.img-topo-site p {
     font-family: 'bebas neue';
     color: #08801c;
     padding: 10px;
@@ -163,38 +164,39 @@ section.topo-do-site .flex{
     font-weight: 800;
 }
 
-@keyframes flutuar{
-    0%{
+@keyframes flutuar {
+    0% {
         top: 0;
     }
-    100%{
+
+    100% {
         top: 30px;
     }
 }
 
 /* ESTILO DAS ESPECIALIDADES */
 
-.especialidades{
+.especialidades {
     background-color: #333232;
     border-top: solid #c8c7cc;
 }
 
-div.interface h2{
+div.interface h2 {
     margin-top: 40px;
     padding-top: 20px;
 }
 
-section.especialiadade-box{
+section.especialiadade-box {
     padding: 40px 4%;
-    
+
 }
 
-section.especialidades .flex{
+section.especialidades .flex {
     gap: 44px;
     margin-bottom: 30px;
 }
 
-.especialidades .especialidades-box{
+.especialidades .especialidades-box {
     color: #c8c7cc;
     padding: 40px;
     border: 2px solid #f4f4f7;
@@ -210,33 +212,33 @@ section.especialidades .flex{
     box-shadow: 0 0 10px #08801c;
 }
 
-.especialidades .especialidades-box i{
+.especialidades .especialidades-box i {
     font-size: 60px;
     color: #39d353;
-    
+
 }
 
-.especialidades .especialidades-box h3{
+.especialidades .especialidades-box h3 {
     font-size: 28px;
     margin: 15px 0;
 }
 
 /* ESTILO SOBRE */
 
-section.sobre{
-    margin-top:-30px;
+section.sobre {
+    margin-top: -30px;
     padding: 40px 4%;
     border-top: solid #08801c;
     background-image: radial-gradient(#1f1f20 75%, #08801c65);
-    
+
 }
 
-section.sobre .flex{
+section.sobre .flex {
     align-items: center;
-    gap:60px;
+    gap: 60px;
 }
 
-.txt-sobre{
+.txt-sobre {
     width: 500px;
     margin: 0 auto;
 
@@ -244,57 +246,57 @@ section.sobre .flex{
 
 }
 
-.sou-titulo .titulo-h2{
-    margin:0;
+.sou-titulo .titulo-h2 {
+    margin: 0;
     font-size: 34px;
     color: #f4f4f7;
     text-align: center;
 }
 
-.img-sobre{
+.img-sobre {
     display: flex;
     margin: auto;
 }
 
 
 
-.sobre .txt-sobre p{
+.sobre .txt-sobre p {
     margin: 20px 0;
 }
 
-.btn-social{
+.btn-social {
     display: block;
     text-align: center;
     margin: 40px;
 }
 
-a i{
+a i {
 
     font-size: 30px;
     color: #39d353;
     background-color: #1f1f2000;
     border-color: none;
-    margin: 10px; 
-   
+    margin: 10px;
+
 }
 
 /* ESTILOS PORTFOLIO */
-.interface h2{
+.interface h2 {
     margin-bottom: 40px;
 }
 
-section.portfolio{
-    margin-top:-30px;
+section.portfolio {
+    margin-top: -30px;
     padding: 40px 4%;
     border-top: solid #c8c7cc;
     background-color: #414141;
 }
 
-section.portfolio .flex{
+section.portfolio .flex {
     justify-content: space-around;
 }
 
-.img-port{
+.img-port {
     margin: 10px;
     width: 380px;
     height: 250px;
@@ -315,7 +317,7 @@ section.formulario {
     border-top: solid #39d353;
 }
 
-form{
+form {
     max-width: 500px;
     margin: 0 auto;
     margin-top: 40px;
@@ -325,7 +327,7 @@ form{
     gap: 10px;
 }
 
-form input{
+form input {
     width: 100%;
     background-color: #414141;
     color: #f4f4f7;
@@ -334,7 +336,7 @@ form input{
     padding: 10px;
 }
 
-form textarea{
+form textarea {
     background-color: #414141;
     color: #f4f4f7;
     padding: 10PX;
@@ -343,7 +345,7 @@ form textarea{
     resize: none;
 }
 
-.btn-enviar input{
+.btn-enviar input {
     width: 120px;
     padding: 5px 20px;
     font-size: 18px;
@@ -356,58 +358,59 @@ form textarea{
     transition: .5s;
 }
 
-.btn-enviar input:hover{
+.btn-enviar input:hover {
     box-shadow: 0 0 8px #39d353;
     transform: scale(1.05);
 }
 
-form .btn-enviar{
+form .btn-enviar {
     text-align: center;
 }
 
 /* ESTILO DO FOOTER */
 
-footer{
+footer {
     border-top: solid #c8c7cc;
     padding: 40px 4%;
     box-shadow: 0 0 40px 10px;
     background-color: #0d0d0e;
 }
 
-footer .flex{
+footer .flex {
     justify-content: space-between;
 }
 
-footer .line-footer{
+footer .line-footer {
     padding: 20px 0;
 }
 
-.logo-footer  h1{
+.logo-footer h1 {
     font-family: 'bebas neue';
     font-size: 70px;
     color: #39d353;
-   
+
 }
-.logo-footer p{
+
+.logo-footer p {
     color: #f4f4f7;
     font-size: 18px;
     font-weight: 600;
     margin-top: -15px;
 }
 
-.line-footer p{
+.line-footer p {
     color: #E3E3EE;
 }
 
-p i{
+p i {
     font-size: 30px;
     color: #39d353;
     background-color: #0d0d0e00;
     border-color: none;
-    margin: 10px; 
+    margin: 10px;
 }
 
-.borda{
+.borda {
     border-top: 2px solid #08801c;
 
 }
@@ -416,12 +419,65 @@ p i{
 /* responsividade */
 
 @media screen and (max-width: 1220px) {
+
     /* classes gerais */
-    .flex{
+    .flex {
         flex-direction: column;
     }
+
     /* header */
-    .menu-descktop, .btn-contato{
+    .menu-descktop,
+    .btn-contato {
         display: none;
+    }
+
+    .section.topo-do-site {
+        padding: 20px 8%;
+    }
+
+    .logo {
+        display: block;
+        margin: auto;
+    }
+
+    .topo-do-site .txt-topo-site h1 {
+        margin-top: 0;
+        text-align: center;
+    }
+
+    .topo-do-site .txt-topo-site p {
+        margin-bottom: 0;
+    }
+
+    /* main */
+
+    section.especialidades {
+        padding: 20px 8%;
+    }
+
+    section.sobre {
+        padding: 20px 8%;
+    }
+
+    .sou-titulo .titulo-h2 {
+        margin: 0;
+        font-size: 34px;
+        width: 300px;
+        text-align: center;
+        
+    }
+
+    .sobre .txt-sobre p {
+        margin: 20px 0;
+        width: 300px;
+    }
+
+    .btn-social {
+        margin: 20px 0;
+        text-align: center;
+    }
+
+    section.portfolio {
+        padding: 20px 8%;
     }
 }
