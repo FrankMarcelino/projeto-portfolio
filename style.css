@@ -421,6 +421,11 @@ p i {
 @media screen and (max-width: 1220px) {
 
     /* classes gerais */
+    .interface {
+        max-width: 100vh;
+        margin: 0 auto;
+    }
+
     .flex {
         flex-direction: column;
     }
@@ -492,7 +497,7 @@ p i {
         padding: 20px 8%;
     }
 
-    
+
 
 }
 
