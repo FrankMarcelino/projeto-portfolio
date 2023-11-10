@@ -411,3 +411,17 @@ p i{
     border-top: 2px solid #08801c;
 
 }
+
+
+/* responsividade */
+
+@media screen and (max-width: 1220px) {
+    /* classes gerais */
+    .flex{
+        flex-direction: column;
+    }
+    /* header */
+    .menu-descktop, .btn-contato{
+        display: none;
+    }
+}
