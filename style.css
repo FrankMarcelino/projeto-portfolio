@@ -431,7 +431,7 @@ p i {
         display: none;
     }
 
-    .section.topo-do-site {
+    section.topo-do-site {
         padding: 20px 8%;
     }
 
@@ -455,6 +455,7 @@ p i {
         padding: 20px 8%;
     }
 
+    /* sobre */
     section.sobre {
         padding: 20px 8%;
     }
@@ -473,7 +474,6 @@ p i {
     }
 
     .btn-social {
-        margin: 20px 0;
         text-align: center;
     }
 
