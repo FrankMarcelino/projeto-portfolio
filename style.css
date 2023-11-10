@@ -502,8 +502,15 @@ p i {
         padding: 20px 8%;
     }
 
+    /* rodapé */
 
+    footer .flex{
+        flex-direction: column;
+    }
 
+    footer .line-footer{
+        text-align: center;
+    }
 }
 
 
