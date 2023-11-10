@@ -31,7 +31,7 @@ body{
     background-color: #39d353;
     border: none;
     border-radius: 30px;
-    color: rgb(18, 26, 19);
+    color: #f4f4f7;
     cursor: pointer;
 }
 
@@ -40,6 +40,7 @@ body{
 }
 
 span{
+    font-family: 'bebas neue';
     color: #08801c;
     font-size: 50px;
 }
@@ -154,6 +155,7 @@ section.topo-do-site .flex{
 }
 
 .img-topo-site p{
+    font-family: 'bebas neue';
     color: #08801c;
     padding: 10px;
     font-size: 20PX;
@@ -257,12 +259,48 @@ color: #E3E3EE;
     margin: 20px 0;
 }
 
+.btn-social{
+    display: block;
+    text-align: center;
+    margin: 40px;
+}
+
 a i{
 
-    font-size: 40px;
+    font-size: 30px;
     color: #39d353;
     background-color: #333232;
     border-color: none;
+    margin: 10px; 
+   
+}
+
+/* ESTILOS PORTFOLIO */
+.interface h2{
+    margin-bottom: 40px;
+}
+
+section.portfolio{
+    margin-top:-30px;
+    padding: 40px 4%;
+    border-top: solid #c8c7cc;
+    background-color: #333232;
+}
+
+section.portfolio .flex{
+    justify-content: space-around;
+}
+
+.img-port{
     margin: 10px;
-    
+    width: 380px;
+    height: 250px;
+    background-size: cover;
+    background-position: 100% 0;
+    transition: 5s;
+    border: solid black 8px;
+}
+
+.img-port:hover {
+    background-position: 100% 100%;
 }
