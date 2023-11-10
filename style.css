@@ -272,7 +272,7 @@ a i{
 
     font-size: 30px;
     color: #39d353;
-    background-color: #1f1f20;
+    background-color: #1f1f2000;
     border-color: none;
     margin: 10px; 
    
@@ -363,4 +363,51 @@ form textarea{
 
 form .btn-enviar{
     text-align: center;
+}
+
+/* ESTILO DO FOOTER */
+
+footer{
+    border-top: solid #c8c7cc;
+    padding: 40px 4%;
+    box-shadow: 0 0 40px 10px;
+    background-color: #0d0d0e;
+}
+
+footer .flex{
+    justify-content: space-between;
+}
+
+footer .line-footer{
+    padding: 20px 0;
+}
+
+.logo-footer  h1{
+    font-family: 'bebas neue';
+    font-size: 70px;
+    color: #39d353;
+   
+}
+.logo-footer p{
+    color: #f4f4f7;
+    font-size: 18px;
+    font-weight: 600;
+    margin-top: -15px;
+}
+
+.line-footer p{
+    color: #E3E3EE;
+}
+
+p i{
+    font-size: 30px;
+    color: #39d353;
+    background-color: #0d0d0e00;
+    border-color: none;
+    margin: 10px; 
+}
+
+.borda{
+    border-top: 2px solid #08801c;
+
 }
