@@ -426,6 +426,10 @@ p i {
         margin: 0 auto;
     }
 
+    header {
+        padding: 20px 8%;
+    }
+
     .flex {
         flex-direction: column;
     }
@@ -478,7 +482,7 @@ p i {
     }
 
     .sobre .txt-sobre p {
-        margin: auto;
+    
         width: 300px;
         margin-bottom: 10px;
     }
