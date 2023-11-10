@@ -465,7 +465,7 @@ p i {
         font-size: 34px;
         width: 300px;
         text-align: center;
-        
+
     }
 
     .sobre .txt-sobre p {
@@ -477,7 +477,14 @@ p i {
         text-align: center;
     }
 
+    /* portfolio */
     section.portfolio {
         padding: 20px 8%;
     }
+
+    a {
+        margin: auto;
+    }
 }
+
+
