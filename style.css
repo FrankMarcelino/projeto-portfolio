@@ -485,6 +485,15 @@ p i {
     a {
         margin: auto;
     }
+
+    /* fonmulario */
+
+    section.formulario {
+        padding: 20px 8%;
+    }
+
+    
+
 }
 
 
