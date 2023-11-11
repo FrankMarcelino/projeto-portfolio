@@ -82,7 +82,7 @@ header {
     text-align: center;
 }
 
-header>.interface {
+header.interface {
     display: flex;
     align-items: center;
     justify-content: space-between;
