@@ -123,6 +123,7 @@ header nav ul li {
 .btn-abrir-menu{
     color: #39d353;
     font-size: 40px;
+    cursor: pointer;
 }
 
 .overlay-menu{
@@ -145,8 +146,12 @@ header nav ul li {
     z-index: 9999;
     width: 0%;
     overflow: hidden;
+    transition: .5s;
 }
 
+.menu-mobile.abrir-menu{
+    width: 40%;
+}
 
 
 .menu-mobile nav ul{
