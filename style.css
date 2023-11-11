@@ -421,9 +421,16 @@ p i {
 @media screen and (max-width: 1220px) {
 
     /* classes gerais */
+
+    
+    * {
+        box-sizing: none; 
+    }
+
     .interface {
         max-width: 500px;
         margin: 0 auto;
+      
     }
 
     header {
