@@ -119,35 +119,76 @@ header nav ul li {
 }
 
 /* estilo menu mobile */
+
+.btn-abrir-menu{
+    color: #39d353;
+    font-size: 40px;
+}
+
+.overlay-menu{
+    background-color: #0d0d0e83;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 8888;
+    display: none;
+}
+
 .menu-mobile{
-    background-color: red;
+    background-color: #0d0d0e;
     height: 100vh;
     position: fixed;
     top: 0;
     right: 0;
     z-index: 9999;
-    width: 70%;
+    width: 0%;
+    overflow: hidden;
 }
 
-a{
-    text-decoration: none;
-}
+
 
 .menu-mobile nav ul{
     text-align: right;
 
 }
 
-.menu-mobile nav ul li a{
+li{
+
+    width: 100%;
+}
+
+
+
+
+a{
     color: #f4f4f7;
     font-size: 20px;
     font-weight: 400;
-    padding: 20px 4%;
+    text-decoration: none;
+    display: block;
+    padding: 10px;
+    transition: .2s;
 }
 
-.menu-mobile nav ul li a:hover{
+a:hover{
     background-color: #39d353;
+    border-radius: 15px;
+    color: #1f1f20;
+    transform: scale(1.05);
+    transition: .2s;
 }
+
+.menu-mobile .btn-fechar{
+    padding: 20px 5%;
+}
+
+.btn-fechar i{
+    color: #39d353;
+    font-size: 40px;
+}
+
 
 /* ESTILO DO TOPO DO SITE */
 
@@ -449,17 +490,8 @@ p i {
 
     /* classes gerais */
 
-    
-    * {
-        box-sizing: none; 
-    }
-
-    .interface {
-        max-width: 500px;
-        margin: 0 auto;
-      
-    }
-
+  
+  
     header {
         padding: 20px 8%;
     }
