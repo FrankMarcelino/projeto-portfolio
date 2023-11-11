@@ -112,7 +112,7 @@ header nav ul {
 }
 
 header nav ul li {
-    display: inline-block;
+    display: inline;
     padding: 10px 40px;
 
 
@@ -124,6 +124,7 @@ header nav ul li {
     color: #39d353;
     font-size: 40px;
     cursor: pointer;
+    display: none;
 }
 
 .overlay-menu{
@@ -153,6 +154,9 @@ header nav ul li {
     width: 40%;
 }
 
+.menu-mobile.abrir-menu ~ .overlay-menu{
+    display:block;
+}
 
 .menu-mobile nav ul{
     text-align: right;
@@ -192,6 +196,7 @@ a:hover{
 .btn-fechar i{
     color: #39d353;
     font-size: 40px;
+    cursor: pointer;
 }
 
 
@@ -509,6 +514,11 @@ p i {
     .menu-descktop,
     .btn-contato {
         display: none;
+    }
+
+    .btn-abrir-menu{
+       
+        display: block;
     }
 
     section.topo-do-site {
