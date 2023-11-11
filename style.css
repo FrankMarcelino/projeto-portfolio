@@ -89,14 +89,14 @@ header>.interface {
 
 }
 
-a {
+nav.menu-descktop a {
     color: #c8c7cc;
     text-decoration: none;
     display: inline-block;
     font-weight: 600;
 }
 
-a:hover {
+nav.menu-descktop a:hover {
     color: #f4f4f7;
     text-shadow: 0px 0px 8px #ffffffa4;
     box-shadow: 0px 0px 8px #08801c;
@@ -118,9 +118,36 @@ header nav ul li {
 
 }
 
+/* estilo menu mobile */
+.menu-mobile{
+    background-color: red;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    right: 0;
+    z-index: 9999;
+    width: 70%;
+}
 
+a{
+    text-decoration: none;
+}
 
+.menu-mobile nav ul{
+    text-align: right;
 
+}
+
+.menu-mobile nav ul li a{
+    color: #f4f4f7;
+    font-size: 20px;
+    font-weight: 400;
+    padding: 20px 4%;
+}
+
+.menu-mobile nav ul li a:hover{
+    background-color: #39d353;
+}
 
 /* ESTILO DO TOPO DO SITE */
 
