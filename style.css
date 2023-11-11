@@ -422,7 +422,7 @@ p i {
 
     /* classes gerais */
     .interface {
-        max-width: 100vh;
+        max-width: 500px;
         margin: 0 auto;
     }
 
