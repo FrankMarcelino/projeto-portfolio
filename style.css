@@ -60,6 +60,7 @@ p {
 /* ESTILO DO CABEÇALHO */
 header {
     padding: 40px 4%;
+    background-color: red;
 
 }
 
