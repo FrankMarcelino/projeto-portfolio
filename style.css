@@ -163,7 +163,7 @@ header nav ul li {
 
 }
 
-li{
+.menu-mobile nav ul li{
 
     width: 100%;
 }
@@ -171,7 +171,7 @@ li{
 
 
 
-a{
+.menu-mobile nav ul a{
     color: #f4f4f7;
     font-size: 20px;
     font-weight: 400;
