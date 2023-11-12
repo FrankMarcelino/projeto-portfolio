@@ -526,7 +526,7 @@ p i {
     }
 
     header {
-        padding: 20px 8%;
+        padding: 20px 5%;
     }
 
     .flex {
@@ -545,7 +545,7 @@ p i {
     }
 
     section.topo-do-site {
-        padding: 20px 8%;
+        padding: 20px 5%;
     }
 
     .logo {
@@ -563,18 +563,18 @@ p i {
     }
 
     .topo-do-site .img-topo-site {
-        margin-bottom: 20px;
+        margin-bottom: 5px;
     }
 
     /* main */
 
     section.especialidades {
-        padding: 20px 8%;
+        padding: 20px 5%;
     }
 
     /* sobre */
     section.sobre {
-        padding: 20px 8%;
+        padding: 20px 10%;
     }
 
     .sou-titulo .titulo-h2 {
@@ -614,13 +614,13 @@ p i {
     /* fonmulario */
 
     section.formulario {
-        padding: 20px 8%;
+        padding: 20px 5%;
     }
 
     /* rodapé */
 
     footer {
-        padding: 40px 4%;
+        padding: 40px 0%;
     }
 
     footer .flex {
