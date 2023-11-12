@@ -11,7 +11,7 @@
 }
 
 body {
-    background-color: red;
+    background-color: #1f1f20;
     height: 100vh;
 }
 
@@ -60,7 +60,6 @@ p {
 /* ESTILO DO CABEÇALHO */
 header {
     padding: 40px 4%;
-    background-color: red;
 
 }
 
@@ -83,7 +82,7 @@ header {
     text-align: center;
 }
 
-header.interface {
+header>.interface {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -505,12 +504,8 @@ p i {
 
     /* classes gerais */
 
-   
-   .interface {
-    max-width: 500px;
-    
-    } 
- 
+  
+  
     header {
         padding: 20px 8%;
     }
@@ -610,5 +605,4 @@ p i {
         text-align: center;
     }
 }
-
 
