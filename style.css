@@ -6,13 +6,13 @@
 * {
     margin: 0;
     padding: 0;
-     box-sizing: border-box; 
+    box-sizing: border-box;
     font-family: 'roboto', sans-serif;
 }
 
 body {
-    background-color: green;
-    /* height: 100vh; */
+    background-color: #2e113a;
+    height: 100vh; 
 }
 
 .interface {
@@ -33,6 +33,8 @@ body {
     border-radius: 30px;
     color: #f4f4f7;
     cursor: pointer;
+
+
 }
 
 .btn-contato button:hover {
@@ -49,6 +51,8 @@ H2.titulo {
     color: #E3E3EE;
     font-size: 40px;
     text-align: center;
+
+
 }
 
 p {
@@ -387,6 +391,19 @@ section.portfolio .flex {
     justify-content: space-around;
 }
 
+
+.portfolio-links {
+    display: inline;
+
+}
+
+.flex ul li {
+    display: inline-block;
+    text-decoration: none;
+    list-style: none;
+}
+
+
 .img-port {
     margin: 10px;
     width: 380px;
@@ -520,9 +537,12 @@ p i {
 
     /* classes gerais */
 
-    .interface {
+    /* .interface {
         max-width: 600px;
         margin: 0 auto;
+    } */
+    body{
+        
     }
 
     header {
@@ -550,7 +570,7 @@ p i {
 
     .logo {
         display: block;
-        margin: auto;
+      text-align: center;
     }
 
     .topo-do-site .txt-topo-site h1 {
@@ -577,6 +597,12 @@ p i {
         padding: 20px 10%;
     }
 
+    section.txt-sobre {
+        padding: 0;
+        text-align: center;
+        width: 0;
+    }
+
     .sou-titulo .titulo-h2 {
         margin: auto;
         font-size: 34px;
@@ -586,30 +612,41 @@ p i {
     }
 
     .sobre .txt-sobre p {
-
+        text-align: center;
         width: 300px;
         margin-bottom: 10px;
     }
 
-    .btn-social {
-        text-align: center;
+    .txt-sobre a{
+        width: 0;
+        display: inline;
+    }
+
+    div.btn-social {
+        margin: 0;
+        padding: 0;
     }
 
     /* portfolio */
     section.portfolio {
-        padding: 20px 8%;
+        padding: 20px 0%;
     }
 
+    .portfolio-links{
+        text-align: center;
+    }
 
     .img-port {
         margin: 10px;
         width: 300px;
         height: 200px;
-  
-    }
-    
 
-  
+    }
+
+
+
+
+
 
     /* fonmulario */
 
