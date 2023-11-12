@@ -303,6 +303,10 @@ section.especialidades .flex {
 
 /* ESTILO SOBRE */
 
+section.topo-do-site{
+    padding: 40px 4%;
+}
+
 section.sobre {
     margin-top: -30px;
     padding: 40px 4%;
@@ -588,6 +592,10 @@ p i {
     }
 
     /* rodapé */
+
+    footer{
+        padding: 40px 4%;
+    }
 
     footer .flex{
         flex-direction: column;
