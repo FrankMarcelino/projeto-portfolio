@@ -181,7 +181,7 @@ header nav ul li {
     transition: .2s;
 }
 
-a:hover {
+.menu-mobile nav ul a:hover {
     background-color: #39d353;
     border-radius: 15px;
     color: #1f1f20;
@@ -352,13 +352,22 @@ section.sobre .flex {
     margin: 40px;
 }
 
-a i {
+.btn-social a i {
 
     font-size: 30px;
     color: #39d353;
     background-color: #1f1f2000;
     border-color: none;
     margin: 10px;
+
+}
+
+.btn-social a i:hover {
+
+    border: 2px solid #39d353;
+    box-shadow: 0 0 8px #f4f4f7;
+    border-radius: 5px;
+    padding: 5px;
 
 }
 
@@ -490,6 +499,13 @@ p i {
     background-color: #0d0d0e00;
     border-color: none;
     margin: 10px;
+}
+
+.btn-social p i {
+    border: 2px solid #39d353;
+    box-shadow: 0 0 8px #f4f4f7;
+    border-radius: 5px;
+    padding: 5px;
 }
 
 .borda {
