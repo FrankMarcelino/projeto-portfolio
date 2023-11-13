@@ -20,6 +20,11 @@ body {
     margin: 0 auto;
 }
 
+div.logo img {
+
+    margin: 10px;
+}
+
 .flex {
     display: flex;
 }
