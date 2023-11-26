@@ -487,6 +487,10 @@ form {
     gap: 10px;
 }
 
+form label {
+    display: none;
+}
+
 form input {
     width: 100%;
     background-color:var(--cor-portfolio);
@@ -505,7 +509,7 @@ form textarea {
     resize: none;
 }
 
-.btn-enviar input {
+.btn-enviar {
     width: 120px;
     padding: 5px 20px;
     font-size: 18px;
