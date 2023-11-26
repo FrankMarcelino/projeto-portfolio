@@ -109,6 +109,7 @@ H2.titulo {
 
 p {
     font-size: 18px;
+    color: var(--nav-menu-descktop) !important;
 }
 
 
